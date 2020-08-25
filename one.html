@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Дмитрий Алексеев — официальный сайт</title>
+	<style type="text/css">
+	* {
+		font-family: Arial;
+	}
+
+	header {
+		background-color: #fbfbfb;
+	}
+
+	.fixed-container {
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	.first-section {
+		display: flex;
+		flex-direction: column;
+		padding: 0 100px;
+	}
+
+	.menu-container {
+		display: flex;
+		justify-content: space-between;
+		height: 60px;
+		align-items: center;
+	}
+
+	nav {
+		display: flex;
+	}
+
+	nav a {
+		color: #1f1f24;
+		text-decoration: none;
+		margin-right: 40px;
+	}
+
+	nav a:hover {
+		color: #fc557c;
+		text-decoration: underline;
+	}
+
+	.phone-container {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.phone {
+		font-size: 20px;
+		font-weight: bold;
+		margin-right: 30px;
+	}
+	.order-call {
+		border: 1px solid #fc557a;
+		padding: 16px 40px;
+		color: black;
+		background-color: pink;
+		cursor: pointer;
+	}
+   .order-call:hover {
+ background-color: #fc557a;
+ border: 1px solid transparent;
+ color: white;
+         }
+.more-information {
+		border: 1px solid #fc557a;
+		padding: 10px 25px;
+		color: black;
+		background-color: pink;
+		cursor: pointer;
+	}
+  .more-information:hover {
+    background-color:#fc557a;
+    border: 1px solid transparent;
+    color: white;
+  }
+	.title-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		height: 650px;
+	}
+
+	h1 {
+		font-size: 60px;
+		margin: 0 0 15px;
+	}
+
+	h3 {
+		color: #8993ad;
+		font-size: 24px;
+		font-weight: normal;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="fixed-container first-section">
+			<div class="menu-container">
+				<nav>
+					<a href="#">Услуги</a>
+					<a href="#">Портфолио</a>
+					<a href="#">Цены</a>
+				</nav>
+				<div class="phone-container">
+					<span class="phone">+7 495 555-55-55</span>
+					<button class="order-call">Заказать звонок</button>
+				</div> 
+			</div>
+			<div class="title-container">
+				<h1>Дмитрий Алексеев</h1>
+				<h3>Frontend-разработчик и веб-верстальщик</h3>
+				<button class="more-information">Узнать больше</button>
+			</div>
+		</div>
+	</header>
+<!-- service block -->
+
+ <main class="second-section">
+         <div class="fixed-container">
+            <h2>Что я делаю</h2>
+            <div class="services-container">
+               <div class="service-card">
+                  <img class="service-image" src="tools-and-utensils.png">
+                  <p class="service-text">Вёрстка лендинг-страниц и сайтов любой сложности</p>
+               </div>
+               <div class="service-card">
+                  <img class="service-image" src="responsive.png">
+                  <p class="service-text">Адаптивная вёрства под все браузеры и устройства</p>
+               </div>
+               <div class="service-card">
+                  <img class="service-image" src="programming.png">
+                  <p class="service-text">Frontend-разработка и программирование</p>
+               </div>
+               <div class="service-card">
+                  <img class="service-image" src="coding.png">
+                  <p class="service-text">Исправлениеи и доработка существующей вёрстки</p>
+               </div>
+            </div>
+            <div class="cost-container">
+               <button class="learn-cost">Узнать стоимость</button>
+            </div>
+         </div>
+      </main>
+   </head>
+   </body>
+</html>
